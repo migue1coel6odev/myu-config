@@ -1,6 +1,6 @@
 {
-  "packages": [
-    "packages/*"
-  ],
-  "version": "independent"
+  "version": "independent",
+  "useWorkspaces": true,
+  "npmClient": "yarn",
+  "ignoreChanges": ["README.md"]
 }
